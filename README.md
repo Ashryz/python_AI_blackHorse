@@ -1,13 +1,13 @@
 # python_AI_blackHorse
 
 # RoadMap
-## python fundamental 
+## Python Fundamental 
 - datatypes
 - control flow
 - arthimetic operation 
+- data structure
 - functions 
 - oop
-- data structure
 
 ## DA 
 - Pandas
@@ -57,4 +57,22 @@
     - split --> split string with (' ') or ('any char')
     - concatination  --> adding two or more string 
 
-    
+### session three
+- slicing with step  -> [start:end:steps]
+- negative slicing  -> [-5:-2]
+- string format
+- input
+- arithmetic operation ->  +, -, *, /, //, %, **
+- Data Structure
+    - list []
+        - len()   -> get length of list items
+        - access  -> access list index               -> list[index]
+        - slicing -> get list items using slicing    -> list[start:end]
+        - insert  -> adding item by its index        -> list.insert(index, value)
+        - append  -> adding item at the end of       -> list.append(value)
+        - extend  -> adding list to my list          -> list.extend([value,value,value])
+        - remove  -> remove item from list by value  -> list.remove(value)
+        - pop     -> remove item from list by index  -> list.pop(index)
+        - del     -> delete the list from memory
+        - clear   -> make the list empty 
+        - sort    -> arrange the list items    if reverse= True -> DESC
