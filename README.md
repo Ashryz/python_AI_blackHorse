@@ -76,3 +76,47 @@
         - del     -> delete the list from memory
         - clear   -> make the list empty 
         - sort    -> arrange the list items    if reverse= True -> DESC
+
+### session four
+- Data Structure
+    - Tuple ()  ordered, unchangeableable, allow duplicate
+        - access -> access tuple index              -> tuple[index]
+        - slicing -> get tuple items using slicing    -> tuple[start:end]
+        - len()   -> get length of tuple items
+
+    - Set {}   unordered, unchangeableable but can add or remove , not allow duplicate , not indexing
+
+        - access 
+        - len()   -> get length of set items
+        - add()   -> adding item to the set   -> set.add(item)
+        - remove() -> remove item from set    -> set.remove(item) but if not found raise error
+        - discard() -> remove item from set   -> set.discard(item)
+        - pop()  -> remove random item          -> set.pop()
+        - clear() -> empty the set from its items -> set.clear()
+        - del   -> delete set from memory  -> del set
+        - difference() -> return set contains difference between two or more sets
+        - intersection() -> return set contains intersection of other sets
+        - union()  -> return set contains all sets items
+    
+    - Dictionary {key: value}
+
+### session five
+- Conditions and If statements
+    - equal  A == B
+    - not equal A != B
+    - greater than A > B
+    - less than A < B
+    - geater than or equal A >= B
+    - less than or equal A <= B
+    - IF Elif Else 
+    - logical operation and, or, not
+    - nested if
+    - pass   -> keyword using to unimplemented code yet
+- Loops
+    - for loop
+        - iterator
+        - break  stop itration
+        - continue skip this itration only
+        - range
+        - nested loops
+    - while loop
