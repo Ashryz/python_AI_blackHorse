@@ -85,7 +85,6 @@
         - len()   -> get length of tuple items
 
     - Set {}   unordered, unchangeableable but can add or remove , not allow duplicate , not indexing
-
         - access 
         - len()   -> get length of set items
         - add()   -> adding item to the set   -> set.add(item)
@@ -98,7 +97,21 @@
         - intersection() -> return set contains intersection of other sets
         - union()  -> return set contains all sets items
     
-    - Dictionary {key: value}
+    - Dictionary {'key': value}  ordered,changeable, not allow duplicate
+        - len()   -> get length of dict items
+        - access 
+            - dict['key'] -> return the value of this key if key not found raise error
+            - dict.get('key') -> return the value of this key if key not found return None
+            - dict.keys() -> return list of all keys in the dict
+            - dict.values() -> return list of all values in the dict
+            - dict.items() -> return list of tuples contains  (key, value) pairs
+        - change and add values
+            - dict['key'] = new_value  if exist update if not exist add
+            - dict.update({'key':value, 'key': value}) if exist update if not exist add
+        - pop('key') -> remove item  using the key
+        - popitem() -> remove the last item
+        - clear() -> empty the dict from items
+        - del  -> remove the dict from memory
 
 ### session five
 - Conditions and If statements

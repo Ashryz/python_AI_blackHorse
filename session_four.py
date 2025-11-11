@@ -27,3 +27,19 @@
 
 ############## Dictionary ###################
 
+mydict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(mydict["brand"])
+print(mydict.get("year"))
+print(mydict.keys())
+print(mydict.values())
+print(mydict.items())
+mydict['engine'] = '1600cc'
+print(mydict)
+mydict.pop('model')
+print(mydict)
+mydict.popitem()
+print(mydict)
