@@ -133,3 +133,25 @@
         - range
         - nested loops
     - while loop
+
+### session six
+- funtions
+- opp   
+- analysis 
+    - datafram  table of data info
+    - Numpy -> lib which treat with numbers 
+        - first of all import numpy and check its version 
+        - create array of numbers 
+        - Dimensions in Arrays
+            - 0-D
+            - 1-D
+            - 2-D
+            - 3-D
+        - indexing arr[index]
+        - slicing arr[index:index] 
+        - copy & view     new update not affect on copy but view 
+        - reshape(row,col)
+        - loops
+        - join
+        - stack()*
+    - Pandas
