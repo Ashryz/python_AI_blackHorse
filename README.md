@@ -153,5 +153,22 @@
         - reshape(row,col)
         - loops
         - join
-        - stack()*
-    - Pandas
+            - concatenate()
+            - stack() , hstack(), vstack()
+        - split
+            - array_split()
+            - hsplit()
+        - sort
+        - filter
+    - Pandas -> analysis , datacleaning , manupilation
+        - DataFrame()
+        - Series()
+        - read_csv() -> to read date from csv file 
+        - head() -> default get first 5 
+        - tail() -> default get last 5 
+        - info()
+        - isnull().sum() -> count null data
+        - to_string() -> print all data
+        - inplace = True -> to make clean on df in this cell
+        - dropna(inplace = True) -> to make all cells remove nulls 
+        - fillna() -> to fill all null values 
