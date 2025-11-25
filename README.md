@@ -160,15 +160,26 @@
             - hsplit()
         - sort
         - filter
-    - Pandas -> analysis , datacleaning , manupilation
-        - DataFrame()
-        - Series()
-        - read_csv() -> to read date from csv file 
-        - head() -> default get first 5 
-        - tail() -> default get last 5 
-        - info()
-        - isnull().sum() -> count null data
-        - to_string() -> print all data
-        - inplace = True -> to make clean on df in this cell
-        - dropna(inplace = True) -> to make all cells remove nulls 
-        - fillna() -> to fill all null values 
+### session seven
+- Pandas -> analysis , datacleaning , manupilation
+    - DataFrame()
+    - Series()
+    - read_csv() -> to read date from csv file 
+    - head() -> default get first 5 
+    - tail() -> default get last 5 
+    - info()
+    - isnull().sum() -> count null data
+    - to_string() -> print all data
+    - dropna(inplace = True) -> to remove all null values from df
+    - fillna() -> to fill all null values 
+### session eight
+- Data Cleaning
+    - missing  
+        - drop  dropna(inplace=True)
+        - imputation  fillna(inplace=True)
+            - mean() -> avg
+            - median() -> the middle value after sorting it 
+            - mode() -> most appearance value
+- Data visualization
+    - Matplotlib
+        
